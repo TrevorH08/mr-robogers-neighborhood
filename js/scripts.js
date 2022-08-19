@@ -10,6 +10,16 @@ for (let i = 0; i <= numb1Input; i++) {
   console.log(i)
   outputArray.push(i);
   console.log(outputArray);
+  if (outputArray === 1) {
+    outputArray === "beep"
+  }
+  outputArray.forEach(number =>{
+    1 === "beep"; 2 === "boop"; 3 === "Won't you be my neighbor?"
+  });
+
+  //if above doesn't work, try temporary variables
+
+  
   //console.log(parseint[i]);
  // if (numb1Input === 1) {
  //   returnOut = "beep"
