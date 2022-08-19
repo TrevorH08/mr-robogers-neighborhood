@@ -8,7 +8,7 @@ let inputArray = [numb1Input];
 let outputArray = [];
 for (let i = 0; i <= numb1Input; i++) {
   console.log(i)
-  outputArray.push([i]);
+  outputArray.push(i);
   console.log(outputArray);
   //console.log(parseint[i]);
  // if (numb1Input === 1) {
