@@ -3,7 +3,7 @@
 function formHandler(event) {
   event.preventDefault();
   const numb1Input = document.getElementById("numberInput").value;
-  document.getElementById("result").innerText = result;
+  document.getElementById("result").innerText = numb1Input;
 }
 
 window.addEventListener("load", function() {

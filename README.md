@@ -1,5 +1,5 @@
-Describe: 
+Describe: beepBoop(); 
 
-Test: 
+Test: "when entering the number 1 it should return 'beep'".
 Code: 
-Expected Output: 
+Expected Output: "beep"
