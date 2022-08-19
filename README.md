@@ -1,5 +1,5 @@
 Describe: beepBoop(); 
 
-Test: "when entering the number 1 it should return 'beep'".
+Test: "when entering number, it should display counting up to number by 1".
 Code: 
 Expected Output: "beep"
