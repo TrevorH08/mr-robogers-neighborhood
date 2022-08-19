@@ -3,13 +3,13 @@
 function beepBoop(e) {
 let returnOut
 const inputArray = [numb1Input]
-for (i = 0; i <= 1; i += 1) {
+for (i = 0; i <= 1; i++) {
   console.log(parseint[i]);
   if (numb1Input === 1) {
-    returnOut = "beep"
+    result = "beep"
   }
 }
-  return returnOut;
+  return result;
 }
 
 // UI Logic
@@ -17,7 +17,7 @@ for (i = 0; i <= 1; i += 1) {
 function formHandler(event) {
   event.preventDefault();
   const numb1Input = document.getElementById("numberInput").value;
-  document.getElementById("result").innerText = numb1Input;
+  document.getElementById("result").innerText = result;
 }
 
 window.addEventListener("load", function() {
