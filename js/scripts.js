@@ -3,19 +3,26 @@
 function beepBoop(event) {
 event.preventDefault();
 const numb1Input = document.getElementById("numberInput").value;
-let returnOut
-let inputArray = [numb1Input];
+//let returnOut
+//let inputArray = [numb1Input];
 let outputArray = [];
 for (let i = 0; i <= numb1Input; i++) {
   console.log(i)
-  outputArray.push(i);
-  console.log(outputArray);
-  if (outputArray === 1) {
-    outputArray === "beep"
+  let str = i.toString()
+  if () {
+  } else if (str.includes("1")) {
+    outputArray.push("beep")
   }
-  outputArray.forEach(number =>{
-    1 === "beep"; 2 === "boop"; 3 === "Won't you be my neighbor?"
-  });
+  } else {
+    outputArray.push(i);
+  }
+  console.log(outputArray);
+  // if (outputArray === 1) {
+  //   outputArray === "beep"
+  // }
+  // outputArray.forEach(number =>{
+  //   1 === "beep"; 2 === "boop"; 3 === "Won't you be my neighbor?"
+  // });
 
   //if above doesn't work, try temporary variables
 
