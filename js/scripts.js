@@ -14,8 +14,8 @@ for (let i = 0; i <= numb1Input; i++) {
     outputArray.push("beep")
   } else {
     outputArray.push(i);
-    console.log(i)
   }
+  console.log(outputArray);
   }
 }
   //document.getElementById("result").innerText = outputArray;
@@ -25,12 +25,12 @@ for (let i = 0; i <= numb1Input; i++) {
 
 // UI Logic
 
-//function formHandler(event) {
-  //event.preventDefault();
-  //const numb1Input = document.getElementById("numberInput").value;
-  //beepBoop();
- // document.getElementById("result").innerText = returnOut;
-//}
+function formHandler(event) {
+  event.preventDefault();
+  //document.getElementById("result").innerText = "";
+  beepBoop();
+  document.getElementById("result").innerText = beepBoop(outputArray).value;
+}
 
 window.addEventListener("load", function() {
   document.getElementById("countUp").addEventListener("submit", beepBoop);
