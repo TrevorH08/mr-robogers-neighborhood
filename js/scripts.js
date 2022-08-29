@@ -9,7 +9,7 @@ let outputArray = [];
 for (let i = 0; i <= numb1Input; i++) {
   console.log(i)
   let str = i.toString()
-  if () {
+  if ( {
   } else if (str.includes("1")) {
     outputArray.push("beep")
   }
@@ -32,7 +32,7 @@ for (let i = 0; i <= numb1Input; i++) {
  //   returnOut = "beep"
   }
   document.getElementById("result").innerText = outputArray;
-}
+
  // return returnOut;
 //}
 
