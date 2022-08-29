@@ -15,7 +15,8 @@ for (let i = 0; i <= numb1Input; i++) {
     outputArray.push(i);
   }
   };
-  return outputArray
+  const finalOutput = outputArray.join(", ");
+  return finalOutput
 }
 
 // UI Logic
@@ -27,7 +28,7 @@ function formHandler(event) {
   if (numb1Input === "") {
     document.getElementById("result").innerText = "We can't count nothing! Go ahead and put a number in!"
   } else {
-    document.getElementById("result").innerText = beepBoop();
+    document.getElementById("result").innerText = "Results: " + beepBoop();
   }
 }
 
