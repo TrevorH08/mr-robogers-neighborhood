@@ -9,9 +9,11 @@ let outputArray = [];
 for (let i = 0; i <= numb1Input; i++) {
   console.log(i)
   let str = i.toString()
-  if (str.includes("2")) {
-    outputArray.push("boop")
+  if (str.includes("3")) {
+    outputArray.push("Won't you be my neighbor?")
     console.log(i)
+  } else if (str.includes("2")) {
+    outputArray.push("boop")
   } else if (str.includes("1")) {
     outputArray.push("beep")
   } else {
