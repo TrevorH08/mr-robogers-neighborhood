@@ -32,3 +32,8 @@ Code: if (str.includes("3")) {
   outputArray.push("beep")
 }
 Expected Output: "0,beep,boop,Won't you be my neighbor?,4,5,6,7,8,9,beep,beep,boop,Won't you be my neighbor?"
+
+Test: "add spaces between all values in array upon output"
+Code: const finalOutput = outputArray.join(", ");
+return finalOutput
+Expected Output: "0, beep, boop, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, beep"
