@@ -17,6 +17,7 @@ for (let i = 0; i <= numb1Input; i++) {
   }
   console.log(outputArray);
   }
+  return outputArray
 }
   //document.getElementById("result").innerText = outputArray;
 
@@ -27,9 +28,9 @@ for (let i = 0; i <= numb1Input; i++) {
 
 function formHandler(event) {
   event.preventDefault();
+  const numb1Input = document.getElementById("numberInput").value;
   //document.getElementById("result").innerText = "";
-  beepBoop();
-  document.getElementById("result").innerText = beepBoop(outputArray).value;
+  document.getElementById("result").innerText = beepBoop(outputArray) ;
 }
 
 window.addEventListener("load", function() {
