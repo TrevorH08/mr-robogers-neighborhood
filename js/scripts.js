@@ -14,7 +14,6 @@ for (let i = 0; i <= numb1Input; i++) {
   } else {
     outputArray.push(i);
   }
-  console.log(outputArray);
   };
   return outputArray
 }
