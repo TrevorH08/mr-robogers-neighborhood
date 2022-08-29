@@ -22,3 +22,13 @@ Code: if (str.includes("2")) {
   outputArray.push("beep")
 }
 Expected Output: "0,beep,boop,3,4,5,6,7,8,9,beep,beep,boop,beep"
+
+Test: "input 13, when the number 3 is listed, instead it will display the sentence "Won't you be my neighbor?" alongside changing 1's and 2's"
+Code: if (str.includes("3")) {
+  outputArray.push("Won't you be my neighbor?")
+} else if (str.includes("2")) {
+  outputArray.push("boop") 
+} else if (str.includes("1")) {
+  outputArray.push("beep")
+}
+Expected Output: "0,beep,boop,Won't you be my neighbor?,4,5,6,7,8,9,beep,beep,boop,Won't you be my neighbor?"
