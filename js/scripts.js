@@ -9,10 +9,12 @@ let outputArray = [];
 for (let i = 0; i <= numb1Input; i++) {
   console.log(i)
   let str = i.toString()
-  if ( {
-  } else if (str.includes("1")) {
+  if (str.includes("1")) {
     outputArray.push("beep")
-  }
+    console.log(i)
+  // } else if (str.includes("1")) {
+  //   outputArray.push("beep")
+  //}
   } else {
     outputArray.push(i);
   }
@@ -31,7 +33,8 @@ for (let i = 0; i <= numb1Input; i++) {
  // if (numb1Input === 1) {
  //   returnOut = "beep"
   }
-  document.getElementById("result").innerText = outputArray;
+}
+  //document.getElementById("result").innerText = outputArray;
 
  // return returnOut;
 //}
